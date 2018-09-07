@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CalculadoraDeImpostos.exe" version="1.0.0.2" publicKeyToken="3bf01124c678abdd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CalculadoraDeImpostos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CalculadoraDeImpostos.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CalculadoraDeImpostos.exe" size="12200">
+      <assemblyIdentity name="CalculadoraDeImpostos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UkqSqQsrl5mh4YCMvyyDVyTSVIlZWpz7TlA7TKueU8g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CalculadoraDeImpostos.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GABRI\Gabri" issuerKeyHash="77c5df9f363a5c6a7df693663f1354f8752d4060" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ykg8H2HXyFqKW9MqrrmWbRAxhfaC2LENAckU3ZzvrK8=</DigestValue></Reference></SignedInfo><SignatureValue>S98AB9Wi/2vpmcfhSsijxVJIZ7tj3O3O64iXz641wQ6viJKX/Z/n+kuSsCeS90iVvu9+SJF1QRbPT/wuq64XjS5ecc0LOPVcXBwvPCmIEM+w9xKuKCN268b5yHOEZKRiBE7NW47ziEKJ120Lx8HB7/qYXjZzxtFz+CjJiVUEvC4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>32oyRCwflckBIgfxDl4VevMwjk2cHV81gi3DFdiDBfVpPhZ91g8jOtWG3blZIH0qouh/Wq9OIDuxc9mOjnqISmVN9zGMtkjwnBz6sStuYVekBXWvvlsTveMW1KTphv26Mj2MoFAlSxalLyOZOwzfPgDr6uD2M1O8jMOCP+nZgP8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="afacef9cdd14c9010db1d882f68531106d96b9ae2ad35b8a5ac8d7611f3c48ca" Description="" Url=""><as:assemblyIdentity name="CalculadoraDeImpostos.exe" version="1.0.0.2" publicKeyToken="3bf01124c678abdd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GABRI\Gabri</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iDDy9mHkZedsoOBKg18oh+4l5bAjsWsq0kvMpXTMDi8=</DigestValue></Reference></SignedInfo><SignatureValue>o0Y53nP4HdpnoABQMI8af17w1wjEfSTmlV//7NGM43L1o3iFxKmXJIzxwubEGYJs4mV/gzs09uZZGUn/acaRMrAIwqEr6PqAGZCtxxGuhmuAn3vipjovHTxO6N6MoU085kpEf76WuDFO30qMLK0LIHqUkHZ5g/+Rpds+tvaf4m4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>32oyRCwflckBIgfxDl4VevMwjk2cHV81gi3DFdiDBfVpPhZ91g8jOtWG3blZIH0qouh/Wq9OIDuxc9mOjnqISmVN9zGMtkjwnBz6sStuYVekBXWvvlsTveMW1KTphv26Mj2MoFAlSxalLyOZOwzfPgDr6uD2M1O8jMOCP+nZgP8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQTZVLIpkUdZxFGzGSZ6oQezANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYARwBBAEIAUgBJAFwARwBhAGIAcgBpMB4XDTE3MDUxNjE1MjkyMloXDTE4MDUxNjIxMjkyMlowITEfMB0GA1UEAx4WAEcAQQBCAFIASQBcAEcAYQBiAHIAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA32oyRCwflckBIgfxDl4VevMwjk2cHV81gi3DFdiDBfVpPhZ91g8jOtWG3blZIH0qouh/Wq9OIDuxc9mOjnqISmVN9zGMtkjwnBz6sStuYVekBXWvvlsTveMW1KTphv26Mj2MoFAlSxalLyOZOwzfPgDr6uD2M1O8jMOCP+nZgP8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCZ7HbqAFYgLjJ3PxFZn6YUnpgj7TBXAzHmRmCp9/5DGZYTkslE5NsR1UNvFeHRQKrJqMxCQWXZup7xSYPt5EF5eMYBHVSFjXf802Nk/kuxivBNNzWeRtXk0fb2+oasoEKZrYmUPOJGIehsyYPlaZYKSl+8/VBJQT+Ftr3JVArbYw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

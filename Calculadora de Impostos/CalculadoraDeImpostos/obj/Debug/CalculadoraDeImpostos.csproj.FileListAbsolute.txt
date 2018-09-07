@@ -1,0 +1,13 @@
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\bin\Debug\CalculadoraDeImpostos.exe.config
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\bin\Debug\CalculadoraDeImpostos.exe
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\bin\Debug\CalculadoraDeImpostos.pdb
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\obj\Debug\CalculadoraDeImpostos.csprojResolveAssemblyReference.cache
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\obj\Debug\CalculadoraDeImpostos.Form1.resources
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\obj\Debug\CalculadoraDeImpostos.Properties.Resources.resources
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\obj\Debug\CalculadoraDeImpostos.csproj.GenerateResource.Cache
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\obj\Debug\CalculadoraDeImpostos.exe
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\obj\Debug\CalculadoraDeImpostos.pdb
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\bin\Debug\CalculadoraDeImpostos.exe.manifest
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\bin\Debug\CalculadoraDeImpostos.application
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\obj\Debug\CalculadoraDeImpostos.exe.manifest
+c:\users\gabri-£l\documents\visual studio 2015\Projects\CalculadoraDeImpostos\CalculadoraDeImpostos\obj\Debug\CalculadoraDeImpostos.application
